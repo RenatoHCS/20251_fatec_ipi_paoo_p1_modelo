@@ -1,3 +1,12 @@
+ ### 🧑‍🤝‍🧑 Integrantes do grupo (em ordem alfabética)
+
+   | Nome completo            | RA        |
+   |--------------------------|-----------|
+   |                          |           |
+   |                          |           |
+   |                          |           |
+   |                          |           |
+
 ## ✅ Requisitos
 
 ### 1. Consulta de coordenadas latitude/longitude em função do nome de uma cidade
@@ -56,11 +65,4 @@ entrega(p1): conclui as atividades
 
 ---
 
- ### 🧑‍🤝‍🧑 Integrantes do grupo (em ordem alfabética)
 
-   | Nome completo            | RA        |
-   |--------------------------|-----------|
-   |                          |           |
-   |                          |           |
-   |                          |           |
-   |                          |           |
