@@ -3,7 +3,7 @@
    | Nome completo            | RA        |
    |--------------------------|-----------|
    |Gustavo L Borges dos Santo|2040482322022|
-   |                          |           |
+   |Renato Horikoshi Candido  |2040482322035|
    |                          |           |
    |                          |           |
 
