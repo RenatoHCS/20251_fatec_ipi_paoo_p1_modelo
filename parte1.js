@@ -3,7 +3,6 @@ import readline from 'readline';
 
 const protocol = 'https'
 const baseURL = 'api.openweathermap.org/geo/1.0/direct'
-const baseURL2 =''
 const API_KEY = '5001aa9dd6e2a2430d809ffcfc5cadcd';
 const units = 'metric'
 const lang = 'pt_br'
@@ -48,7 +47,7 @@ function perguntarCidade(){
       if (cidade.toLowerCase() === 'sair') {
         console.log('Programa Encerrado.');
         rl.close();
-        reject(new Error('Encerrado pelo usuário.'));
+        rej(new Error('Encerrado pelo usuário.'));
         return;
       }
       
@@ -67,7 +66,7 @@ function perguntarCidade(){
       .then(data => {
         if (data.length === 0) {
           //avisa que não encontrou
-          reject(new Error('Cidade não encontrada.'));
+          rej  (new Error('Cidade não encontrada.'));
           return;
         }
         //pega latitude e longitude
